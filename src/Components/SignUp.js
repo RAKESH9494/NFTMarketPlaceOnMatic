@@ -18,8 +18,8 @@ const SignUp = (props) =>{
               url:'https://api.pinata.cloud/pinning/pinFileToIPFS',
               data:formData,
               headers:{
-                pinata_api_key :'5dfc50601737f72d83ec',
-                pinata_secret_api_key:'97977aa1fb894984a34f889f0b95ada09f16f8be349c2632e00b5b8080d29452',
+                pinata_api_key :'YOUR_API_KEY',
+                pinata_secret_api_key:'YOUR_SECRET_API_KEY',
                 "Content-Type":"multipart/form-data",
               }
             });
